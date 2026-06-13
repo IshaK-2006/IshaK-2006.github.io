@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  color: #1a1a1a;
+  background-color: #f9f8f5;
+  line-height: 1.7;
+}
+
+/* HERO */
+header#hero {
+  background-color: #2d3d2a;
+  color: #f9f8f5;
+  padding: 3rem 2rem;
+}
+
+header#hero h1 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin-bottom: 0.4rem;
+  color: #f9f8f5;
+}
+
+header#hero p {
+  color: #b8c9b0;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+nav a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #d4e2cc;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #3a5234;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #3a5234;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* RESEARCH */
+.research-item {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border-left: 2px solid #3a5234;
+}
+
+.meta {
+  font-size: 0.82rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+/* PROJECTS */
+.project-card {
+  margin-bottom: 2.5rem;
+  padding: 1.2rem 1.2rem 1.2rem 1.4rem;
+  border-left: 3px solid #3a5234;
+  background-color: #ffffff;
+}
+
+.project-card a {
+  font-size: 0.85rem;
+  color: #3a5234;
+  text-decoration: none;
+  border-bottom: 1px solid #3a5234;
+}
+
+.project-card a:hover {
+  color: #2d3d2a;
+}
+
+/* SKILLS */
+.skill-group {
+  margin-bottom: 1.2rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2d3d2a;
+  color: #b8c9b0;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  margin-top: 4rem;
+}
+
+footer a {
+  color: #d4e2cc;
+  text-decoration: none;
+}
