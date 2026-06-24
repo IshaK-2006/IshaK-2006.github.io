@@ -125,3 +125,10 @@ footer a {
   color: #d4e2cc;
   text-decoration: none;
 }
+.project-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+}
