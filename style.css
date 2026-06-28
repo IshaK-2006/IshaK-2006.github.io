@@ -153,10 +153,13 @@ footer a {
   display: flex;
   gap: 0.8rem;
   margin-bottom: 1rem;
+  align-items: center;
 }
 
 .project-img-half {
   width: 50%;
+  height: 220px;
+  object-fit: cover;
   border: 1px solid #e0e0e0;
   display: block;
 }
